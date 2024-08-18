@@ -3,7 +3,6 @@ import {
   EditUserProfileForm,
 } from "../entities/forms/users-forms";
 import { Auth, getAuth, UserRecord } from "firebase-admin/auth";
-import { ValidationError } from "apollo-server-express";
 import { UserProfile } from "../entities/profiles";
 import { BaseService } from "./base-service";
 

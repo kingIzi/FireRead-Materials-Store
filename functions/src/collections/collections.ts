@@ -7,8 +7,6 @@ import {
   QuerySnapshot,
 } from "firebase-admin/firestore";
 import { FindWhere } from "../services/base-service";
-import { DatabaseCommunicationException } from "../utilities/database-communication-exception";
-import { handleErrorMessage } from "./helpers";
 import { GraphQLError } from "graphql";
 
 export type DocumentStatusToogle = { status: boolean; dateModified: string };
