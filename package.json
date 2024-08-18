@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "type-graphql": "^2.0.0-rc.2"
+  }
+}
